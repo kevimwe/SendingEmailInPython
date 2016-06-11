@@ -1,5 +1,5 @@
 ########################################################################
-#        The Code send Email including an attachement		       #
+#        The Code sends Email including an attachement		       #
 #                                                		       #
 ########################################################################
 
@@ -15,7 +15,7 @@ from email import encoders
 
 def send_email():
     fromaddr = "YOUR_ADDRESS@gmail.com"    #Your email Address
-    toaddr = "RECIEVERS_ADDRESS@gmail.com" #receiver email address, you can have multiple as long as you separete them by comma
+    toaddr = "RECIEVERS_ADDRESS@gmail.com" #receiver email address, you can have multiple as long as you separate them by comma
     Output_file = "NA_Summary.xlsx"        #Your Attachement
     yourExcelFile = Output_file
     msg = MIMEMultipart()
